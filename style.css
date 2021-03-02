@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.header,
+.first,
+.second,
+.third,
+.footer {
+  background: #0e0e0e;
+  border-radius: 6px;
+  color: #fff;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal,
+    "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+  margin: 0 1.5% 24px 1.5%;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  display: flex;
+}
+
+.first,
+.second,
+.third {
+  display: inline-block;
+  margin: auto;
+  height: 675px;
+}
+
+.first,
+.third {
+  width: 250px;
+}
+
+.first {
+  margin-left: 78px;
+}
+
+.second {
+  width: 1094px;
+}
+
+.third {
+  float: right;
+  margin-right: 79px;
+}
+
+.header {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.footer {
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+  height: 50px;
+}
